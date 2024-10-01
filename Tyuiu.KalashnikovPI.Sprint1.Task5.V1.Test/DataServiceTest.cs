@@ -7,10 +7,10 @@ namespace Tyuiu.KalashnikovPI.Sprint1.Task5.V1.Test
         [TestMethod]
         public void ValidExpression()
         {
-            double x1 = 2;
-            double y1 = 2;
-            double x2 = 5;
-            double y2 = 2;
+            double x1 = 5;
+            double y1 = 3;
+            double x2 = 2;
+            double y2 = 1;
             DataService ds = new DataService();
             double res = ds.DistanceBetweenDots(x1, y1, x2, y2);
 
