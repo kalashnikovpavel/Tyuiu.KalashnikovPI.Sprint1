@@ -13,7 +13,7 @@ namespace Tyuiu.KalashnikovPI.Sprint1.Task6.V6.Lib
 
             foreach (String a in arrOfStr)
             {
-                res += a.Substring(1, a.Length - 1);
+                res += a.Substring(1, a.Length - 1)+ " ";
             }
 
             return res;
