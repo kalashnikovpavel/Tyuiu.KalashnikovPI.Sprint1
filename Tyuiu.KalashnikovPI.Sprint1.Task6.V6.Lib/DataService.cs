@@ -5,13 +5,13 @@ namespace Tyuiu.KalashnikovPI.Sprint1.Task6.V6.Lib
     {
         public string DeleteFirstLetter(string value)
         {
-            String[] arrOfStr = value.Split(' ');
+            string[] arrOfStr = value.Split(' ');
 
 
-            String res = "";
+            string res = "";
 
 
-            foreach (String a in arrOfStr)
+            foreach (string a in arrOfStr)
             {
                 res += a.Substring(1, a.Length - 1)+ " ";
             }
