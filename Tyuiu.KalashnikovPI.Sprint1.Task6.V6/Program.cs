@@ -30,7 +30,7 @@ namespace Tyuiu.KalashnikovPI.Sprint1.Task6.V6
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.DeleteFirstLetter(str));
+            Console.WriteLine(ds.DeleteFirstLetter(str.TrimEnd()));
 
             Console.ReadKey();
         }
