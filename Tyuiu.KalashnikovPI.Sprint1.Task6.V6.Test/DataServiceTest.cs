@@ -7,10 +7,10 @@ namespace Tyuiu.KalashnikovPI.Sprint1.Task6.V6.Test
         [TestMethod]
         public void ValidString()
         {
-            string strTest = "привет";
+            string strTest = "привет привет";
             DataService ds = new DataService();
             string res = ds.DeleteFirstLetter(strTest);
-            string wait = "ривет";
+            string wait = "ривет ривет";
             Assert.AreEqual(wait, res);
         }
     }
